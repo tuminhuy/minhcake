@@ -1,0 +1,77 @@
+.content-box-header, .content-box-content {
+	border: #E5E5E5 solid 1px
+}
+.content-box-content caption {
+	color: #000
+}
+.content-box-content table {
+	width: 100%
+}
+#main-nav {
+	width: 206px;
+	padding: 0;
+	margin-top: 50px;
+}
+#main-nav li {
+	list-style: none;
+	padding-bottom: 5px;
+	text-align: left;
+}
+#main-nav li a.nav-top-item {
+	background-color: #ccc;
+	padding: 10px 15px;
+	color: #000;
+	font-size: 14px;
+	cursor: pointer;
+	display: block;
+	text-decoration: none;
+}
+#main-nav li a.current {
+	color: #333;
+	font-weight: bold;
+}
+#main-nav li a.current:hover {
+	color: #333;
+}
+#main-nav ul {
+	padding: 0;
+	font-size: 12px;
+	margin: 0;
+}
+#main-nav ul li {
+	list-style: none;
+	margin: 0;
+	text-align: left;
+	padding-left: 10px;
+}
+#main-nav ul li a {
+	padding: 8px 15px;
+	display: block;
+	color: #aaa;
+	font-size: 13px;
+	line-height: 1.2em;
+}
+#main-nav ul li a:hover,  #main-nav ul li a.current,  #main-nav ul li a.current:hover {
+	color: #fff;
+}
+ <!-------->
+/* Phân trang */
+.div_phan_trang
+{
+	width:100%;
+	text-align:center;
+	height:50px;
+}
+.div_trang
+{
+	width:30px;
+	padding:5px 10px 5px 10px;
+	text-align:center;
+	background: #F3F3F3;
+	margin:2px;
+}
+.div_trang a:hover
+{
+	text-decoration:none;
+	text-transform:capitalize;
+}
