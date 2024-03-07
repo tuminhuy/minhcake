@@ -19,6 +19,8 @@ header{
   align-items: center;
 
 }
+
+
 .Logo {
   flex: 1;
 }
@@ -128,4 +130,32 @@ header{
 .cart-content-left {
   flex: 2;
   padding-right: 12px;
+}
+/* Các quy tắc CSS khác ở trên đây */
+
+
+@media screen and (max-width: 768px) {
+    /* Điều chỉnh CSS cho kích thước màn hình nhỏ hơn hoặc bằng 768px */
+    .banhngot-item {
+        width: 100%;
+        margin: 0;
+    }
+	.banhkem-item{
+		width: 100%;
+		margin: 0;
+	}
+  .banhman-item{
+    width:  100%;
+    margin: 0;
+  }
+  
+  .nuocngot-item {
+    width:  100%;
+    margin: 0;
+  }
+.Tong {
+  width:  50%;
+    margin: 0;
+}
+    /* Thêm các điều chỉnh khác tùy theo nhu cầu của bạn */
 }
