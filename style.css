@@ -52,6 +52,23 @@ header{
   top: 0;
   left: 0;
 }
+.menu-ngang {
+  display: flex;
+  margin: 3%;
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu-ngang li {
+  display: flex;
+  align-items: center;
+}
+
+.menu-ngang li:not(:last-child)::after {
+  content: "/";
+  margin: 0 10px;
+}
+
 
 .banhngot-item {
   display: inline-block;
@@ -71,10 +88,44 @@ header{
   width: 30%;
   vertical-align: top;
   text-align: center;
+  flex-direction: column;
 }
 .nuocngot-item {
   display: inline-block;
   width: 30%;
   vertical-align: top;
   text-align: center;
+}
+
+.cart{
+  padding: 100px 0;
+}
+.cart-top-ngang{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-top{
+  height: 2px;
+  width: 70%;
+  background-color: #dddddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0 100px;
+}
+.cart-top-it {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #dddddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.cart-content-left {
+  flex: 2;
+  padding-right: 12px;
 }
