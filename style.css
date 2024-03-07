@@ -131,7 +131,7 @@ header{
   flex: 2;
   padding-right: 12px;
 }
-/* Các quy tắc CSS khác ở trên đây */
+
 
 
 @media screen and (max-width: 768px) {
@@ -153,9 +153,33 @@ header{
     width:  100%;
     margin: 0;
   }
-.Tong {
-  width:  50%;
-    margin: 0;
+
+  header {
+    padding: 12px 20px; 
+    height: auto; 
 }
-    /* Thêm các điều chỉnh khác tùy theo nhu cầu của bạn */
+
+.Menu {
+      width: 100%;
+      margin: 0;  
+  
+   
+}
+
+.Other {
+ 
+  flex: 1; 
+    justify-content: flex-end; 
+}
+
+.Other li {
+    margin-left: 10px; 
+}
+
+.bx-search,
+.bx-user,
+.bx-cart {
+    font-size: 20px; 
+}
+    
 }
