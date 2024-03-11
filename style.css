@@ -5,6 +5,56 @@
   font-family: Arial, Helvetica, sans-serif;
 
 }
+
+@media screen and (max-width: 768px) {
+  /* Điều chỉnh CSS cho kích thước màn hình nhỏ hơn hoặc bằng 768px */
+  .banhngot-item {
+      width: 100%;
+      margin: 0;
+  }
+.banhkem-item{
+  width: 100%;
+  margin: 0;
+}
+.banhman-item{
+  width:  100%;
+  margin: 0;
+}
+
+.nuocngot-item {
+  width:  100%;
+  margin: 0;
+}
+
+header {
+  padding: 12px 20px; 
+  height: auto; 
+}
+
+.Menu {
+    width: 100%;
+    margin: 0;  
+
+ 
+}
+
+.Other {
+
+flex: 1; 
+  justify-content: flex-end; 
+}
+
+.Other li {
+  margin-left: 10px; 
+}
+
+.bx-search,
+.bx-user,
+.bx-cart {
+  font-size: 20px; 
+}
+  
+}
 li {
   list-style: none;
 }
@@ -127,59 +177,37 @@ header{
   background-color: #fff;
 }
 
-.cart-content-left {
+.cart-ben-trai {
   flex: 2;
   padding-right: 12px;
 }
-
-
-
-@media screen and (max-width: 768px) {
-    /* Điều chỉnh CSS cho kích thước màn hình nhỏ hơn hoặc bằng 768px */
-    .banhngot-item {
-        width: 100%;
-        margin: 0;
-    }
-	.banhkem-item{
-		width: 100%;
-		margin: 0;
-	}
-  .banhman-item{
-    width:  100%;
-    margin: 0;
-  }
-  
-  .nuocngot-item {
-    width:  100%;
-    margin: 0;
-  }
-
-  header {
-    padding: 12px 20px; 
-    height: auto; 
-}
-
-.Menu {
-      width: 100%;
-      margin: 0;  
-  
-   
-}
-
-.Other {
+.cart-ben-trai table {
+  width: 50%;
+  text-align: center;
  
-  flex: 1; 
-    justify-content: flex-end; 
+}
+.cart-ben-trai table input {
+  width: 30px;
+}
+.cart-ben-trai table td:first-child img {
+  width: 130px;
 }
 
-.Other li {
-    margin-left: 10px; 
+.cart-ben-phai {
+  width: 30%;
+  text-align: center;
+  }
+.cart-ben-phai table {
+  width: 130%;
 }
+.cart-ben-phai table td {
+  width: 100%;
+  font-size: 20px;
+}
+.cart-ben-phai-button {
+  width: 130%;
 
-.bx-search,
-.bx-user,
-.bx-cart {
-    font-size: 20px; 
 }
-    
+.cart-ben-phai-dangnhap {
+  width: 100%;
 }
