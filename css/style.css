@@ -6,7 +6,61 @@
 
 }
 
-/* header */
+@media screen and (max-width: 770px) {
+  /* Điều chỉnh CSS cho kích thước màn hình nhỏ hơn hoặc bằng 768px */
+  .banhngot-item {
+      width: 100%;
+      margin: 0;
+  }
+.banhkem-item{
+  width: 100%;
+  margin: 0;
+}
+.banhman-item{
+  width:  100%;
+  margin: 0;
+}
+
+.nuocngot-item {
+  width:  100%;
+  margin: 0;
+}
+
+.anvat-item {
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  padding: 12px 20px; 
+  height: auto; 
+}
+
+.Menu {
+    width: 100%;
+    margin: 0;  
+
+ 
+}
+
+.Other {
+
+flex: 1; 
+  justify-content: flex-end; 
+}
+
+.Other li {
+  margin-left: 10px; 
+}
+
+.bx-search,
+.bx-user,
+.bx-cart {
+  font-size: 20px; 
+}
+  
+}
+
 li {
   list-style: none;
 }
@@ -19,13 +73,9 @@ header{
   padding: 12px 50px;
   height: 70px;
   align-items: center;
-  background-color: #c2aeae;
 
 }
-.head {
-  display: flex;
-  text-align: ;
-}
+
 .Logo {
   flex: 1;
 }
@@ -35,9 +85,6 @@ header{
 }
 .Menu > li {
   padding: 0 12px;
-}
-input {
-  outline: none;
 }
 
 .Other{
@@ -79,16 +126,7 @@ input {
   margin: 0 10px;
 }
 
-/* ---------------slider----- */
-.slider-items {
-  position: relative;
-}
-.slider-it {
-  position: absolute;
-}
-.slider-it img {
-  width: 99vw;
-}
+
 .banhngot-item {
   display: inline-block;
   width: 30%; /* Điều chỉnh độ rộng tối đa cho mỗi mục */
