@@ -45,7 +45,7 @@ input {
   display: flex;
 }
 .Other > li {
-  padding: 0 12px;
+  padding: 0 7px;
 }
 
 .aspect-ratio-169 {
@@ -189,4 +189,15 @@ input {
   text-align: center; 
 }
 
-
+/* Responsive */
+.header-mobi {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+ .header-mobi {
+  display: block;
+ }
+ .menu {
+  display: none;
+ }
+}
